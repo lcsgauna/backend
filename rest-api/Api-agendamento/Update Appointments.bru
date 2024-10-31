@@ -1,0 +1,19 @@
+meta {
+  name: Update Appointments
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/appointments/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "tete",
+    "date": "12/02/2003 12:44",
+    "local": "Teste"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Api-agendamento",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

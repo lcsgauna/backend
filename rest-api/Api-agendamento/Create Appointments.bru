@@ -1,0 +1,19 @@
+meta {
+  name: Create Appointments
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/appointments
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Teste",
+    "date" : "12/09/2023 11:30",
+    "local" : "Sao Paulo" 
+  }
+}
